@@ -1,0 +1,83 @@
+joint_state_controller:
+  type: joint_state_controller/JointStateController
+  publish_rate: 50.0 
+bh_j11_position_controller:
+  type: position_controllers/JointPositionController
+  joint: bh_j11_joint
+  pid: {p: 100.0, i: 10.0, d: 1.0}
+bh_j12_position_controller:
+  type: position_controllers/JointPositionController
+  joint: bh_j12_joint
+  pid: {p: 100.0, i: 10.0, d: 1.0}
+bh_j22_position_controller:
+  type: position_controllers/JointPositionController
+  joint: bh_j22_joint
+  pid: {p: 100.0, i: 10.0, d: 1.0}
+bh_j32_position_controller:
+  type: position_controllers/JointPositionController
+  joint: bh_j32_joint
+  pid: {p: 100.0, i: 10.0, d: 1.0}
+bh_j21_position_controller:
+  type: position_controllers/JointPositionController
+  joint: bh_j21_joint
+  pid: {p: 100.0, i: 10.0, d: 1.0}
+bh_j23_position_controller:
+  type: position_controllers/JointPositionController
+  joint: bh_j23_joint
+  pid: {p: 100.0, i: 10.0, d: 1.0}  
+bh_j13_position_controller:
+  type: position_controllers/JointPositionController
+  joint: bh_j13_joint
+  pid: {p: 100.0, i: 10.0, d: 1.0}  
+bh_j33_position_controller:
+  type: position_controllers/JointPositionController
+  joint: bh_j33_joint
+  pid: {p: 100.0, i: 10.0, d: 1.0} 
+
+/gazebo_ros_control:
+  pid_gains:
+    bh_j11_joint:
+      p: 100.0
+      i: 10.0
+      d: 1.0
+
+    bh_j12_joint:
+      p: 100.0
+      i: 10.0
+      d: 1.0
+    
+    bh_j22_joint:
+      p: 100.0
+      i: 10.0
+      d: 1.0  
+    
+    bh_j32_joint:
+      p: 100.0
+      i: 10.0
+      d: 1.0 
+
+    bh_j21_joint:
+      p: 100.0
+      i: 10.0
+      d: 1.0
+
+    bh_j23_joint:
+      p: 100.0
+      i: 10.0
+      d: 1.0
+
+    bh_j13_joint:
+      p: 100.0
+      i: 10.0
+      d: 1.0
+
+    bh_j33_joint:
+      p: 100.0
+      i: 10.0
+      d: 1.0
+    
+      
+
+  
+
+
