@@ -4,10 +4,9 @@
   <version>0.1.0</version>
   <description>The barrett_hand_sim package</description>
   
-  <maintainer email="rnavarro@robotnik.es">Román Navarro</maintainer>
-  <maintainer email="egambaro@robotnik.es">Elena Gambaro</maintainer>
+  <maintainer email="lgao1@unm.edu">Longsen Gao</maintainer>
   
-  <author email="egambaro@robotnik.es">Elena Gambaro</author>
+  <author email="lgao1@unm.edu">Longsen Gao</author>
   
   <license>BSD</license>
 
