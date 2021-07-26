@@ -5,12 +5,11 @@
   <description>The barrett_hand_description package</description>
 
   <maintainer email="lgao1@unm.edu">Longsen Gao</maintainer>
-  <maintainer email="lgao1@unm.edu">Longsen Gao</maintainer>
 
   <license>BSD</license>
 
   <url type="website">http://wiki.ros.org/barrett_hand_description</url>
-  <url type="repository">https://github.com/RobotnikAutomation/barrett_hand_common.git</url>
+  <url type="repository">https://github.com/gaolongsen/Barrett-Hand/tree/main/barrett_hand_common.git</url>
   <url type="bugtracker">https://github.com/RobotnikAutomation/barrett_hand_common/issues</url>
 
   <buildtool_depend>catkin</buildtool_depend>
